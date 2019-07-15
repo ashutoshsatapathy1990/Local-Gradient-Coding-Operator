@@ -21,7 +21,7 @@ for K = 1:numel(S)
     RED=zeros(m-4,n-4);
     GREEN=zeros(m-4,n-4);
     BLUE=zeros(m-4,n-4);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LBP CALCULATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CSLGC CALCULATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     for i=3:m-2
         for j=3:n-2        
             if (R(i,j-2)-R(i,j+2)>=0); RH7=2^7; else; RH7=0; end 
